@@ -1,0 +1,46 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+h3[type=getintouch] {
+    font-size: 40px;
+    color: blue;
+}
+
+input[type=text], select, textarea {
+    width: 48%;
+    padding: 12px;
+    background-color: rgba(0, 0, 255, 0.308);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    box-sizing: inherit;
+}
+::placeholder {
+    color: blue;
+    opacity: 1;
+}
+textarea[type=message] {
+    background-color: rgba(0, 0, 255, 0.267);
+  }
+/* Button */
+input[type=submit] {
+    background-color: rgb(29, 41, 209);
+    color: white;
+    padding: 12px 40px;
+    border: none;
+    margin-left: 45%;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+
+  input[type=submit]:hover {
+  background-color: lightskyblue;
+}
+
+.container {
+  border-radius: 30px;;
+  padding: 20px;
+}
